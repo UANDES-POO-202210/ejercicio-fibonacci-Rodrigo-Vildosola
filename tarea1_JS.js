@@ -15,8 +15,7 @@ function fibonacci(num_str){
 
 var fs = require('fs');
 let number = fs.readFileSync('number.txt', 'utf-8') 
-let num_str = number.toString()
-console.log("\nEl numero ingresado es: %d", num_str);
+console.log("\nEl numero ingresado es: %d", number);
 fibonacci(number);
 console.log()
 
